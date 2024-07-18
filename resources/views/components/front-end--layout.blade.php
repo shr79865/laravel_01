@@ -62,44 +62,26 @@
 
 <body>
 
-<header>
-    <div>
+    <header>
 
+        {{-- nav-top start --}}
         <x-nav-top />
+        {{-- nav-top end --}}
 
-        {{-- banner of naast/dmc start --}}
-        <div class="flex gap-[50px] items-center px-[150px] py-[10px] bg-[#DBF1FF]">
+        {{-- nav-banner-dmc start --}}
+        <x-nav-banner-dmc />
+        {{-- nav-banner-dmc end --}}
 
-            <div>
-                <img src="https://dmcdharan.com/images/1678860663.png" alt="logo" width="120px">
-            </div>
+    </header>
 
-            <div>
-                {{-- font: kumbh sans used in this <h1> --}}
-                <h1 id="hm" class="text-[40px] text-[#447C9D] font-bold">NAAST/DHARAN MULTIPLE CAMPUS</h1>
+    <main>
+        <x-front-end-navbar />
+        {{ $slot }}
+    </main>
 
-                {{-- font: playwrite cuba used in this <p> --}}
-                <p id="pm" class="text-[30px] text-[#d3424e] font-semibold">....... taking education beyond
-                    excellence</p>
-            </div>
+    <footer>
 
-        </div>
-        {{-- banner of naast/dmc end --}}
-
-
-
-        </div>
-
-</header>
-
-<main>
-    <x-front-end-navbar/>
-        {{$slot}}
-</main>
-
-<footer>
-
-</footer>
+    </footer>
 
 </body>
 
