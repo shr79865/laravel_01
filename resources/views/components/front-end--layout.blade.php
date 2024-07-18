@@ -54,15 +54,25 @@
     #pm {
         font-family: 'Playwrite CU', sans-serif;
     }
+
+    #hero1 {
+        background-image: url("https://dmcdharan.com/images/1678860698.jpeg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+    }
 </style>
 
 <body>
-
-    <header>
+    <div class="sticky top-0 z-50">
 
         {{-- nav-top start --}}
         <x-nav-top />
         {{-- nav-top end --}}
+
+    </div>
+
+    <header>
 
         {{-- nav-banner-dmc start --}}
         <x-nav-banner-dmc />
@@ -70,8 +80,12 @@
 
     </header>
 
-    <main>
+    <div class="sticky top-[55px] z-50">
         <x-front-end-navbar />
+    </div>
+
+    <main>
+
         {{ $slot }}
     </main>
 

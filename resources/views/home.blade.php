@@ -2,7 +2,7 @@
 
      {{-- notification section start --}}
      <div id="notice" class="flex items-center px-[150px] py-[10px] border-b-2 border-[#F3F3F3]">
-         <p>{{$n}}:</p>
+         <p>{{ $n }}:</p>
 
          <marquee onmouseover="this.stop()" onmouseleave="this.start()">
              <p class="flex items-center">
@@ -20,5 +20,17 @@
          </marquee>
      </div>
      {{-- notification section end --}}
+
+     {{-- hero section start --}}
+     <div id="hero1" class="h-[500px] w-[100%]"></div>
+     {{-- hero section end --}}
+
+     {{-- notices-from-staffs start  --}}
+     <div class="h-auto grid grid-cols-2 px-[150px] py-[30px]">
+
+
+
+     </div>
+     {{-- notices-from-staffs end --}}
 
  </x-front-end--layout>

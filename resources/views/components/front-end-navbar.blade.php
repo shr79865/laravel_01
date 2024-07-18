@@ -1,6 +1,6 @@
 <div>
      {{-- navbar pages start --}}
-     <div class="bg-[#eeeeeeb0] flex justify-center items-center gap-[41px] px-[150px] py-[10px]">
+     <div class="bg-[#F3F3F3] flex justify-center items-center gap-[40px] px-[150px] py-[10px]">
         <a href="">Home</a>
         <a href="">About us</a>
         <a href="">Programs</a>
