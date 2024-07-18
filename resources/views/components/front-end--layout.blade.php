@@ -45,6 +45,7 @@
 <style>
     * {
         font-family: 'Poppins', sans-serif;
+        scroll-behavior: smooth;
     }
 
     #hm {
@@ -64,13 +65,12 @@
 </style>
 
 <body>
+
+    {{-- top-navbar start --}}
     <div class="sticky top-0 z-50">
-
-        {{-- nav-top start --}}
         <x-nav-top />
-        {{-- nav-top end --}}
-
     </div>
+    {{-- top-navbar end --}}
 
     <header>
 
@@ -80,9 +80,11 @@
 
     </header>
 
+    {{-- bottom-navbar start --}}
     <div class="sticky top-[55px] z-50">
         <x-front-end-navbar />
     </div>
+    {{-- bottom-navbar end --}}
 
     <main>
 
