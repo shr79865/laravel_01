@@ -54,10 +54,6 @@
     #pm {
         font-family: 'Playwrite CU', sans-serif;
     }
-
-    #notice span {
-        color: white
-    }
 </style>
 
 <body>

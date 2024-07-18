@@ -3,7 +3,8 @@
 use Illuminate\Support\Facades\Route;
 
 Route::get('/', function () {
-    return view('home');
+    $n = "Notice";
+    return view('home', compact('n'));
 });
 
 Route::get('/about', function () {
