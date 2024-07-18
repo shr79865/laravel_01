@@ -92,7 +92,7 @@
     </main>
 
     <footer>
-
+        <x-front-end-footer />
     </footer>
 
 </body>
