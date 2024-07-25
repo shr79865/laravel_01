@@ -28,7 +28,7 @@
 
 
      {{-- notices-from-staffs start  --}}
-     <div class="h-auto border-b-2 border-[#dfdfdf] grid grid-cols-2 px-[150px] py-[70px] gap-[50px]">
+     <div class="h-auto border-b-2 border-[#dfdfdf] grid grid-cols-2 px-[150px] py-[70px] gap-[50px]"> 
 
          {{-- left-paragraph start --}}
          <div>
@@ -63,7 +63,7 @@
                      well-informed choice, we encourage you to visit our academy.
                  </p>
 
-                 <button class="border-2 border-[#bbbbbb] py-[5px]">Read More</button>
+                 <button class="border-2 border-[#bbbbbb] rounded-lg py-[5px]">Read More</button>
 
              </div>
          </div>
@@ -104,7 +104,7 @@
                      well-informed choice, we encourage you to visit our academy.
                  </p>
 
-                 <button class="border-2 border-[#bbbbbb] py-[5px]">Read More</button>
+                 <button class="border-2 border-[#bbbbbb] rounded-lg py-[5px]">Read More</button>
 
              </div>
 

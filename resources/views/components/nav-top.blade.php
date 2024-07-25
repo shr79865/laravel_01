@@ -18,9 +18,8 @@
             <div class="flex gap-4 text-[#ffffff] items-center">
                 <a class="font-semibold" href="">Login</a>
 
-                <a href=""
-                    class="font-semibold rounded-[7px] px-[16px] py-[5px] bg-[#F4CA29] text-[#000000]"><i
-                        class="ri-mail-fill"></i> Web eMail</a>
+                <a href="/form"
+                    class="font-semibold rounded-[7px] px-[16px] py-[5px] bg-[#F4CA29] text-[#000000]">FORM</a>
             </div>
 
         </div>

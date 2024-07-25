@@ -31,7 +31,7 @@
     {{-- footer-top end --}}
 
     {{-- footer-bottom start --}}
-    <div class="bg-[#447C9D] flex flex-col gap-22 text-justify justify-center items-center px-[150px] py-[20px] text-[#ffffff]">
+    <div class="bg-[#396985] flex flex-col gap-22 text-justify justify-center items-center px-[150px] py-[20px] text-[#ffffff]">
         <h1>Powered By - CodeIT</h1>
         <p>Prithvi Path, Dharan, Sunsari | +977-25-525163</p>
     </div>
